@@ -26,20 +26,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-private fun AppScreen() {
-    Scaffold(topBar = {
-        TopAppBar()
-    }) {
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(it)
-        ) {
 
-        }
-    }
-}
 
 @Composable
 fun MyNavigation() {
